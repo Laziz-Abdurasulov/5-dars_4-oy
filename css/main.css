@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  *,*::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  img {
+    max-width: 100%;
+    /* height: auto; */
+    vertical-align: middle;
+    object-fit: cover;
+  }
+
+  .container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .inner {
+    width: 1000px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left {
+    width: 450px;
+  }
+
+  .right {
+    width: 450px;
+  }
+
+  .js-button {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .js-button:nth-child(1){
+background-color: blue;
+  }
+
+  .js-button:nth-child(2){
+    background-color: green;
+}
+
+.js-button:nth-child(3){
+    background-color: red;
+}
+
+.js-input {
+    width: 300px;
+    padding: 5px;
+}
+
+.js-submit {
+    width: 70px;
+    padding: 7px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+
+.js-submit:hover {
+    color: #000;
+    background-color: yellow;
+}
+
+.js-submit:active {
+background-color: red;
+color: white;
+}
+
+.js-list {
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding-left: 0;
+    /* list-style-type: none; */
+    
+}

@@ -50,10 +50,17 @@ html {
   }
 
   .right {
+    display: flex;
+    flex-direction: column;
     width: 450px;
   }
 
-  .js-button {
+  .new-ul {
+    margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .js-buttona {
     width: 100%;
     margin-bottom: 5px;
     padding: 5px 0;
@@ -62,16 +69,58 @@ html {
     border-radius: 10px;
   }
 
-  .js-button:nth-child(1){
+  .js-buttona:nth-child(1){
 background-color: blue;
   }
 
-  .js-button:nth-child(2){
+  .js-buttona:nth-child(2){
     background-color: green;
 }
 
-.js-button:nth-child(3){
+.js-buttona:nth-child(3){
     background-color: red;
+}
+
+.js-buttonc {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 0;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+}
+
+.js-buttonc:nth-child(1){
+background-color: blue;
+}
+
+.js-buttonc:nth-child(2){
+  background-color: green;
+}
+
+.js-buttonc:nth-child(3){
+  background-color: red;
+}
+
+.js-buttonu {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 0;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+}
+
+.js-buttonu:nth-child(1){
+background-color: blue;
+}
+
+.js-buttonu:nth-child(2){
+  background-color: green;
+}
+
+.js-buttonu:nth-child(3){
+  background-color: red;
 }
 
 .js-input {
